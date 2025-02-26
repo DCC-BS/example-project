@@ -187,6 +187,9 @@ wheels = [
 [[package]]
 name = "example-project"
 source = { editable = "." }
+dependencies = [
+    { name = "version-pioneer" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -204,6 +207,7 @@ dev = [
 ]
 
 [package.metadata]
+requires-dist = [{ name = "version-pioneer", specifier = ">=0.0.13" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -841,6 +845,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/0b/d9/f93e4522cf1de51ff1a985ead75df85523cd1b689128b1b033c9e31204b8/uv-0.6.3-py3-none-win32.whl", hash = "sha256:dc2d965481bba716a0cf9d0f81896a70c341a854f0e4273f1887f22e52e5c9fb", size = 15545377 },
     { url = "https://files.pythonhosted.org/packages/91/ea/27dd790ec0d1f8c4ced06e27a409522bd157ed295a1140b3fb6cac3cd39a/uv-0.6.3-py3-none-win_amd64.whl", hash = "sha256:8fc19471fd4cfde1b31a47c239591d7c6dc0a31213f206d3953c528f9f3b406c", size = 16860609 },
     { url = "https://files.pythonhosted.org/packages/97/0f/01e48493264d75cfac6c953809e11c8356c77fb6be32dfce831bcf481ab2/uv-0.6.3-py3-none-win_arm64.whl", hash = "sha256:94a9d59c05f22829388e51a62a9cfddef4000a112e1c561bb5bd5761d4d672f1", size = 15697009 },
+]
+
+[[package]]
+name = "version-pioneer"
+version = "0.0.13"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/61/56/aafde3e86876a3753b70988c3a6d07933ca83c5a9c75135f860ae04fd95e/version_pioneer-0.0.13.tar.gz", hash = "sha256:6d4a1c08f3ad88714d99ffc6b54faccf22cca26c1807388aedc3c063c3648b5f", size = 61611 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/83/d4/043a7c105fe01a287b03749dc7979db10c0ed77f6c5d0a6721644f312ba0/version_pioneer-0.0.13-py3-none-any.whl", hash = "sha256:c18c35836c17fe236eaa35eea8d4b26d67595e26bfbfbf6136e0ca0522d0195a", size = 48509 },
 ]
 
 [[package]]

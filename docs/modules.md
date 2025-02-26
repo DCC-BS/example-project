@@ -1,1 +1,1 @@
-::: src.example_project.foo
+::: example_project.foo

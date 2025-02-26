@@ -16,6 +16,9 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+dependencies = [
+    "version-pioneer>=0.0.13",
+]
 
 [project.urls]
 Homepage = "https://DCC-BS.github.io/example-project/"
@@ -60,6 +63,8 @@ exclude = [
 ]
 defineConstant = { DEBUG = true }
 pythonVersion = "3.12"
+stubPath = "src/example_project/stubs"
+reportExplicitAny = false
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
